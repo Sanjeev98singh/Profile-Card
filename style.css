@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Dancing+Script:wght@700&family=Poppins&family=Sono:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #231E39;
+  color: #b3b8cd;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  width: 32rem;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  box-shadow: 2px 4px 10px 4px rgb(21, 255, 0);
+}
+
+.personal {
+  background-color: #272142;
+  padding: 2.5rem 0 1.5rem 0;
+}
+
+.personal .pro {
+  background-color: #febb0b;
+  color: #231E39;
+  border: 1px solid #febb0b;
+  border-radius: 0.2rem;
+  font-size: 1.4rem;
+  padding: 0.1rem 0.7rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+}
+
+.personal img {
+  width: 12rem;
+  height: 12rem;
+  border: 0.2rem solid #03bfcb;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  padding: 0.4rem;
+}
+
+.personal .name {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 0.8rem;
+}
+
+.personal .country {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.personal .stack {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-bottom: 0.8rem;
+
+}
+
+.personal button:hover {
+  cursor: pointer;
+}
+
+.personal button {
+ border: 1px solid #03bfcb;
+ padding: 0.8rem 1.8rem;
+ border-radius: 0.5rem;
+ font-size: 1.5rem;
+}
+
+.personal .buttons {
+  text-align: center;
+  margin: 1rem;
+}
+
+.personal .primary {
+ background-color: #03bfcb;
+ color: #231E39;
+ margin-right: 0.5rem;
+}
+
+.personal .secondary {
+ background-color: transparent;
+ color: #03bfcb;
+ margin-left: 0.5rem;
+}
+
+.social {
+  text-align: center;
+}
+
+.social a {
+  font-size: 2rem;
+  margin: 1rem 0.4rem;
+  color: inherit;
+  border-radius: 0.2rem;
+}
+
+.fa-linkedin:hover {
+  color: #0A66C2;
+}
+
+.fa-hashnode:hover {
+  color: #2962FF;
+}
+
+.fa-square-instagram:hover {
+  color: #FE016A;
+}
+
+.fa-square-twitter:hover {
+  color: #1D9BF0;
+}
+
+.skills {
+  background-color: #1f1741;
+  padding: 1.6rem 1rem;
+}
+
+.skills h2 {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.skills ul li {
+  display: inline-block;
+  font-size: 1.2rem;
+  border: 0.2rem solid #273340;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  margin: 0.2rem 0.1rem;
+}
+
+li {
+  list-style: none;
+}
+
